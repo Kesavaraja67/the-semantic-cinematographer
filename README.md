@@ -14,7 +14,7 @@
 
 _Your camera is on. Your AI Director is watching. Every gesture, every word — directed in real time._
 
-[View Demo Recording](#) • [System Architecture](#system-architecture) • [Features](#features) • [Installation](#quick-start)
+• [System Architecture](#system-architecture) • [Features](#features) • [Installation](#quick-start)
 
 ---
 
