@@ -67,7 +67,7 @@ graph TD
     WebRTC -->|WebRTC Feed| Agent
     Agent -->|Raw Frames| Processor
     Processor -->|Image Context| LLM
-    LLM -->|Tool Execution (JSON)| Events
+    LLM -->|Tool Execution JSON| Events
     Events --> Hooks
 ```
 
