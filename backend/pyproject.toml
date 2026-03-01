@@ -1,0 +1,11 @@
+[project]
+name = "semantic-cinematographer"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "vision-agents[gemini,openai,deepgram,ultralytics,decart,pocket,getstream]>=0.3.0",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.uv]
+dev-dependencies = ["pytest>=8.0"]
