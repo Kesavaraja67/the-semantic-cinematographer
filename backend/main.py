@@ -65,9 +65,7 @@ runner = Runner(
     launcher,
     serve_options=ServeOptions(
         cors_allow_origins=[
-            "http://localhost:3000",
-            "http://127.0.0.1:3000",
-            os.getenv("FRONTEND_URL", "https://your-project.vercel.app"),
+            "*",
         ],
         get_current_user=my_get_current_user,
     ),
