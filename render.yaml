@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: semantic-cinematographer-backend
+    env: docker
+    dockerContext: ./backend
+    dockerfilePath: ./backend/Dockerfile
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: STREAM_API_KEY
+        sync: false
+      - key: STREAM_API_SECRET
+        sync: false
+      - key: LLM_PROVIDER
+        value: gemini
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: EXAMPLE_BASE_URL
+        value: https://demo.visionagents.ai/
+      - key: DEEPGRAM_API_KEY
+        value: mock-key
+      - key: FRONTEND_URL
+        sync: false
