@@ -3,7 +3,7 @@ services:
     name: semantic-cinematographer-backend
     env: docker
     dockerContext: ./backend
-    dockerfilePath: ./backend/Dockerfile
+    dockerfilePath: ./Dockerfile
     plan: free
     healthCheckPath: /
     envVars:
